@@ -1,4 +1,3 @@
-import './style/main.css'
 const palavraRecuperada = localStorage.getItem('palavra');
 const dica = localStorage.getItem('dica')
 const ajuda = document.getElementById('ajuda')

@@ -1,4 +1,3 @@
-import './style/comAmigo.css'
 const setarPalavra = () => {
     document.getElementById('body').addEventListener('keydown', (ev) => {
         const palavra = document.getElementById('palavra').value; 

@@ -1,4 +1,3 @@
-import './style/tela.css'
 const tema = localStorage.getItem('valor')
 const ajuda = document.getElementById('ajuda')
 const letras = document.getElementById('letras')

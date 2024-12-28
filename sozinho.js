@@ -1,4 +1,3 @@
-import './style/sozinho.css'
 const start = document.getElementById('start')
 
 const troca = () => {
