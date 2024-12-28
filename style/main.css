@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'giz';
+    src: url(font/vtks\ giz.ttf);
+}
+
+body {
+    font-family: 'giz';
+    background-image: url(./img/tma-chalkboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+#pai {
+    display: flex;
+    justify-content: center;
+}
+button {
+    color: rgb(255, 255, 255);
+    font-family: 'giz';
+    border: none;
+    font-size: 20px;
+    margin: 5px;
+    color: black;
+    border-radius: 5px;
+}
+
+#tudo {
+    position: relative;
+    top: -1rem;
+    left: 10rem;
+}
+
+#boneco {
+    position: absolute;
+    top: 116px;
+    left: 20px;
+}
+
+.cabeca {
+    border: 5px solid rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+}
+
+.corpo {
+    background-color: white;
+    width: 7px;
+    height: 140px;
+    position: absolute;
+    left: 21px;
+}
+
+.bracoE {
+    background-color: white;
+    height: 7px;
+    width: 55px;
+    position: absolute;
+    top: 80px;
+    left: -30px;
+    transform: rotate(-20deg);
+}
+.bracoD {
+    background-color: white;
+    height: 7px;
+    width: 55px;
+    position: absolute;
+    top: 80px;
+    left: 23px;
+    transform: rotate(20deg);
+}
+
+.peE {
+    position: absolute;
+    top: 207px;
+    left: -26px;
+    background-color: white;
+    width: 60px;
+    height: 7px;
+    transform: rotate(-50deg);
+}
+
+.peD {
+    position: absolute;
+    top: 205px;
+    left: 14px;
+    background-color: white;
+    width: 60px;
+    height: 7px;
+    transform: rotate(50deg);
+}
+
+#forca {
+    position: relative;
+    left: -188px;
+    top: 18px;
+}
+
+#base {
+    background-color: white;
+    width: 101px;
+    height: 20px;
+}
+
+#pe {
+    background-color: white;
+    height: 350px;
+    width: 5px;
+    margin-left: 50px;
+}
+
+#deitado {
+    background-color: white;
+    width: 180px;
+    height: 5px;
+    position: absolute;
+    left: 50px;
+}
+
+#dig {
+    background-color: white;
+    position: absolute;
+    left: 41px;
+    top: 30px;
+    width: 90px;
+    height: 5px;
+    transform: rotate(-40deg);
+}
+
+#corda {
+    background-color: white;
+    height: 100px;
+    width: 5px;
+    position: absolute;
+    top: 0;
+    left: 230px;
+}
+
+#letras div {
+    background-color: #ffffff;
+    display: inline-block;
+    width: 15px;
+    height: 1px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+#letras {
+    position: absolute;
+    bottom: -70px;
+    left: -160px;
+}
+
+#dica {
+    position: absolute;
+    bottom: -110px;
+    left: -160px;
+    color: #ffffff;
+}
+
+#result {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    display: none;
+}
+
+#result p {
+    text-align: center;
+}
+
+#result button {
+    font-size: 16px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#mudar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: -1px;
+}

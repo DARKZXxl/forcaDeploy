@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'giz';
+    src: url(font/vtks\ giz.ttf);
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main1 input {
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+}
+
+#main1 input:focus {
+    outline: none;
+}
+
+#main1 #div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#button button{
+    position: relative;
+    left: 30px;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: white ;
+}
+
+#modo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+#modo button {
+    padding: 5px;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#start {
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
