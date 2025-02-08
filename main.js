@@ -1,4 +1,5 @@
-const palavraRecuperada = localStorage.getItem('palavra');
+const palavraRecuperada = localStorage.getItem('palavra').toLowerCase().replace(/\d|\W/g, '')
+console.log(palavraRecuperada)
 const dica = localStorage.getItem('dica')
 const ajuda = document.getElementById('ajuda')
 const letras = document.getElementById('letras')
